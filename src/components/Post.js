@@ -86,9 +86,9 @@ function Post() {
   async function handleSubmitEdit() {
     try {
       setLoading(true);
-      handleClose()
+      handleClose();
       const response = await api.patch(`/editComment/${stateComment._id}`, {
-        description: stateComment.description
+        description: stateComment.description,
       });
       console.log(response.data);
       setLoading(false);
@@ -139,14 +139,15 @@ function Post() {
                                 <i className="fa-solid fa-trash"></i>
                                 <> Delete </>
                               </button>
-                              <Button
-                                variant="primary"
+                              <button
+                                className="edit_button"
                                 id={comment._id}
                                 onClick={handleClickEdit}
                                 type="button"
                               >
-                                Edit
-                              </Button>{" "}
+                                <i class="fa-solid fa-pen-to-square"></i>
+                                <> Edit </>
+                              </button>
                               <Modal show={show} onHide={handleClose}>
                                 <Modal.Header closeButton>
                                   <Modal.Title>Edit your comment</Modal.Title>
@@ -203,6 +204,7 @@ function Post() {
             .reverse()}
         </div>
       )}
+      <div className="bottom_rest"></div>
       <ImageUpload />
     </>
   );
