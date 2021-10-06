@@ -146,7 +146,7 @@ function Post() {
                                 type="button"
                               >
                                 Edit
-                              </Button>{" "}
+                              </Button>
                               <Modal show={show} onHide={handleClose}>
                                 <Modal.Header closeButton>
                                   <Modal.Title>Edit your comment</Modal.Title>
@@ -203,7 +203,10 @@ function Post() {
             .reverse()}
         </div>
       )}
+      <footer>
       <ImageUpload />
+      </footer>
+      
     </>
   );
 }
