@@ -15,7 +15,7 @@ Checkout the back-end on this [link](https://github.com/Nogueira998/capture-serv
 
 ## Find more about
 
-Find more about on this [link]()
+Find more about on this [link](https://docs.google.com/presentation/d/11sLx9ZKLz3LcDHFjWiY_65961uXlVrSUFsqKCmank6k/edit?usp=sharing)
 
 ## Technologies
 
