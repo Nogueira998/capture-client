@@ -205,8 +205,11 @@ function Post() {
             .reverse()}
         </div>
       )}
+      <footer>
       <div className="bottom_rest"></div>
       <ImageUpload />
+      </footer>
+      
     </>
   );
 }
