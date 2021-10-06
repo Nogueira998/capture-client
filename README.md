@@ -1,5 +1,6 @@
 # Capture Social Media
 
+
 ## About this project
 
 Inspired by Instagram, this project simulates a social network in a simple way. Ensuring that the CRUD functions (Create, Read, Update and Delete) this app in completely full-stack. You can create your account with security, post your photos and add comments to the posts of your friends. 
