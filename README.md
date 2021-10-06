@@ -1,31 +1,30 @@
-![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
+# Capture Social Media
 
-# React IronPlate
+## About this project
 
-Esse boilerplate já inclui:
+Inspired by Instagram, this project simulates a social network in a simple way. Ensuring that the CRUD functions (Create, Read, Update and Delete) this app in completely full-stack. You can create your account with security, post your photos and add comments to the posts of your friends. 
 
-- Pré-configuração do Axios para injeção de cabeçalhos de autenticação e BaseURL
-- Context para armazenar state de usuário logado
-- Forms de Login e Signup
-- Roteamento básico
-- Componente de rota protegida
+## Try now!
 
-## Para Começar
+You can test the project on this [link]()
 
-- Faça o fork e clone deste repositório
+## Back-end
 
-## Instalação
+Checkout the back-end on this [link]()
 
-```shell
-$ npm install
-```
+## Find more about
 
-## Deploy no Netlify
+Find more about on this [link]()
 
-1. Faça login no Netlify e selecione seu repositório
-2. Em 'Deploy settings > build command' escreva: CI=false npm run build
-3. Em 'publish directory' escreva: build/
-4. Adicione uma environment variable (variável de ambiente) REACT_APP_API_BASE com a URL da sua API funcionando no Heroku
-5. Adicione a URL do seu app hospedado no Netlify nas variáveis de ambiente do backend no Heroku
+## Disclaimer
 
-Happy coding! 💙
+This project it is part of the ninth week of the Full Stack IronHack bootcamp, where in 5 days we apply what was learned for this project.
+
+## Authors
+
+Caio Nogueira 
+https://www.linkedin.com/in/caio-nogueira-66896352/
+
+Filipe Diniz 
+https://www.linkedin.com/in/filipe98freitas/
+
