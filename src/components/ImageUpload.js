@@ -51,7 +51,7 @@ function ImageUpload() {
         <input
           type="text"
           name="caption"
-          value={` ${state.caption}`}
+          value={state.caption}
           onChange={handleChange}
           className="form_text"
           placeholder="Add your description"
