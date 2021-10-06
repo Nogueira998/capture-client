@@ -8,6 +8,15 @@
   border-radius: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+  .post {
+    max-width: 90vw;
+  }
+  .post_form {
+    max-width: 85vw;
+  }
+}
+
 .post_image {
   width: 100%;
   object-fit: contain;
@@ -100,4 +109,22 @@ hr {
 
 .btn_delete:hover {
   color: rgb(255, 0, 0);
+}
+
+.bottom_rest {
+  height: 80px;
+}
+
+.edit_button {
+  border: none;
+  background-color: transparent;
+  color: rgb(207, 206, 206);
+}
+
+.edit_button:hover {
+  color: blue;
+}
+
+.modal_text {
+  width: 100%;
 }

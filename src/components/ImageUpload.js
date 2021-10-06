@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import api from "../apis/api";
+import "../assets/styles/ImageUpload.css";
 
 function ImageUpload() {
   const [state, setState] = useState({
@@ -46,16 +47,31 @@ function ImageUpload() {
 
   return (
     <div>
-      <form onSubmit={handleSubmit} className="">
+      <form onSubmit={handleSubmit} className="form">
         <input
           type="text"
           name="caption"
           value={state.caption}
           onChange={handleChange}
-          className=""
+          className="form_text"
+          placeholder="Add your description"
         />
-        <input type="file" name="image" onChange={handleChange} className=""/>
-        <button type="sumbit" className="">Capture!</button>
+        <input
+          type="file"
+          name="image"
+          id="upload"
+          value=""
+          onChange={handleChange}
+          className="form_file"
+          file="Select your photo"
+        />
+        <label htmlFor="upload">
+          <i className="fa-solid fa-circle-plus"></i>
+        </label>
+        <button type="sumbit" className="form_button">
+          <i className="fa-solid fa-camera"></i>
+          <> Capture! </>
+        </button>
       </form>
     </div>
   );

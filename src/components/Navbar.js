@@ -44,7 +44,11 @@ function NavbarFunc() {
               <div>
                 <span className="me-4">Olá, {loggedInUser.user.name}</span>
                 <img
-                  style={{ width: "45px", height: "45px", objectFit: "cover" }}
+                  style={{
+                    width: "45px",
+                    height: "45px",
+                    objectFit: "cover",
+                  }}
                   className="img-fluid rounded-circle ml-3"
                   src={loggedInUser.user.pictureUrl}
                   alt="foto"
